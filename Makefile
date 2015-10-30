@@ -14,7 +14,7 @@ magick_build:
 		./configure --prefix=$(BUILD_PATH) \
 			--disable-shared --disable-docs --disable-installed \
 			--without-modules --without-perl --without-bzlib && \
-		make && \
+		MACOSX_DEPLOYMENT_TARGET=10.7 make && \
 		make install
 
 magick: magick_download magick_build
