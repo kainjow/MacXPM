@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5A453CE1BE3144000EF1921 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A453CD1BE3144000EF1921 /* main.m */; };
+		A5A453D11BE3144000EF1921 /* Document.mm in Sources */ = {isa = PBXBuildFile; fileRef = A5A453D01BE3144000EF1921 /* Document.mm */; };
+		A5A453D41BE3144000EF1921 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A453D21BE3144000EF1921 /* Document.xib */; };
+		A5A453D61BE3144000EF1921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A453D51BE3144000EF1921 /* Assets.xcassets */; };
+		A5A453D91BE3144000EF1921 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A453D71BE3144000EF1921 /* MainMenu.xib */; };
+		A5A453E51BE344F800EF1921 /* etc in CopyFiles */ = {isa = PBXBuildFile; fileRef = A5A453E01BE3449A00EF1921 /* etc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5A453E21BE344D000EF1921 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = MagickHome;
+			dstSubfolderSpec = 7;
+			files = (
+				A5A453E51BE344F800EF1921 /* etc in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A5A453C61BE3144000EF1921 /* MacXPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacXPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A453CD1BE3144000EF1921 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5A453CF1BE3144000EF1921 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		A5A453D01BE3144000EF1921 /* Document.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Document.mm; sourceTree = "<group>"; };
+		A5A453D31BE3144000EF1921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		A5A453D51BE3144000EF1921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5A453D81BE3144000EF1921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A5A453DA1BE3144000EF1921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A453E01BE3449A00EF1921 /* etc */ = {isa = PBXFileReference; lastKnownFileType = folder; name = etc; path = magickbuild/etc; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5A453C31BE3144000EF1921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5A453BD1BE3144000EF1921 = {
+			isa = PBXGroup;
+			children = (
+				A5A453C81BE3144000EF1921 /* MacXPM */,
+				A5A453C71BE3144000EF1921 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5A453C71BE3144000EF1921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5A453C61BE3144000EF1921 /* MacXPM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5A453C81BE3144000EF1921 /* MacXPM */ = {
+			isa = PBXGroup;
+			children = (
+				A5A453CF1BE3144000EF1921 /* Document.h */,
+				A5A453D01BE3144000EF1921 /* Document.mm */,
+				A5A453D21BE3144000EF1921 /* Document.xib */,
+				A5A453D51BE3144000EF1921 /* Assets.xcassets */,
+				A5A453D71BE3144000EF1921 /* MainMenu.xib */,
+				A5A453DA1BE3144000EF1921 /* Info.plist */,
+				A5A453CC1BE3144000EF1921 /* Supporting Files */,
+				A5A453E01BE3449A00EF1921 /* etc */,
+			);
+			path = MacXPM;
+			sourceTree = "<group>";
+		};
+		A5A453CC1BE3144000EF1921 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5A453CD1BE3144000EF1921 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5A453C51BE3144000EF1921 /* MacXPM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A453DD1BE3144000EF1921 /* Build configuration list for PBXNativeTarget "MacXPM" */;
+			buildPhases = (
+				A5A453C21BE3144000EF1921 /* Sources */,
+				A5A453C31BE3144000EF1921 /* Frameworks */,
+				A5A453C41BE3144000EF1921 /* Resources */,
+				A5A453E21BE344D000EF1921 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacXPM;
+			productName = MacXPM;
+			productReference = A5A453C61BE3144000EF1921 /* MacXPM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5A453BE1BE3144000EF1921 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kevin Wojniak";
+				TargetAttributes = {
+					A5A453C51BE3144000EF1921 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = A5A453C11BE3144000EF1921 /* Build configuration list for PBXProject "MacXPM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5A453BD1BE3144000EF1921;
+			productRefGroup = A5A453C71BE3144000EF1921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5A453C51BE3144000EF1921 /* MacXPM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5A453C41BE3144000EF1921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A453D61BE3144000EF1921 /* Assets.xcassets in Resources */,
+				A5A453D41BE3144000EF1921 /* Document.xib in Resources */,
+				A5A453D91BE3144000EF1921 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5A453C21BE3144000EF1921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5A453D11BE3144000EF1921 /* Document.mm in Sources */,
+				A5A453CE1BE3144000EF1921 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5A453D21BE3144000EF1921 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A453D31BE3144000EF1921 /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		A5A453D71BE3144000EF1921 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5A453D81BE3144000EF1921 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5A453DB1BE3144000EF1921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A5A453DC1BE3144000EF1921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A5A453DE1BE3144000EF1921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "./magickbuild/include/ImageMagick-6";
+				INFOPLIST_FILE = MacXPM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-L./magickbuild/lib",
+					"-lMagick++-6.Q16",
+					"-lMagickCore-6.Q16",
+					"-lMagickWand-6.Q16",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kainjow.MacXPM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5A453DF1BE3144000EF1921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "./magickbuild/include/ImageMagick-6";
+				INFOPLIST_FILE = MacXPM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-L./magickbuild/lib",
+					"-lMagick++-6.Q16",
+					"-lMagickCore-6.Q16",
+					"-lMagickWand-6.Q16",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kainjow.MacXPM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5A453C11BE3144000EF1921 /* Build configuration list for PBXProject "MacXPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A453DB1BE3144000EF1921 /* Debug */,
+				A5A453DC1BE3144000EF1921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A453DD1BE3144000EF1921 /* Build configuration list for PBXNativeTarget "MacXPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5A453DE1BE3144000EF1921 /* Debug */,
+				A5A453DF1BE3144000EF1921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5A453BE1BE3144000EF1921 /* Project object */;
+}
